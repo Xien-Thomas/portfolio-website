@@ -1,17 +1,19 @@
 .nav-container{
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    background-color: var(--maroon-color);
     align-items: center;
     width: 100%;
 }
 .logo{
-    width: 6%;
+    width: 20%;
 }
 .navbar-links .link{
     position: relative;
     color:azure;
     margin: 0 40px 0 0;
+    font-size: var(--nav-size);
+    
     text-decoration: none;
 }
 .navbar-links .link:hover{
