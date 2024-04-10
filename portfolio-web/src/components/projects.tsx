@@ -1,7 +1,6 @@
 import ProjectCard from "./project-card"
 
 function Projects(){
-    
     return(
         <>
             <div className="projects-contianer">

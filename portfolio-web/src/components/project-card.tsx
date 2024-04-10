@@ -9,11 +9,16 @@ function ProjectCard(){
             <div className="card-contianer">
                     {data.map((item) => {
                         return(
-                            <div className="card">
-                                <div className="card-desc">{item.category}</div>
-                                <div className="card-desc">{item.school}</div>
-                                <div className="card-desc">{item.desc}</div>
-                            </div>
+                            <>
+                                <div key={item.id} className="card">
+                                    <div className="card-desc">
+                                        <p className="title">{item.title}</p>
+                                        <p className="company-name">{item.company}</p>
+                                        <p className="desc">{item.desc}</p>
+                                        </div>
+                                    <div  style={{backgroundImage: `URL(${item.img})`}} className="card-image"></div>
+                                </div>
+                            </>
                         )
                     })}
                 
