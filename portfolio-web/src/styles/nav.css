@@ -1,7 +1,7 @@
 .nav-container{
     display: flex;
     justify-content: space-between;
-    background-color: var(--maroon-color);
+    background-color: var(--autumn-color);
     align-items: center;
     width: 100%;
 }
