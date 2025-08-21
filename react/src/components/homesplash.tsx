@@ -1,11 +1,8 @@
-// import Button from "@mui/material/Button";
 import "../styles/homesplash.css";
-// import { Link } from "react-router-dom";
-// import video from "../videos/art1.mp4"
+import { Link } from "react-router-dom";
 import backvideo from "../videos/ai1.mp4"
-// import resumePDF from "../documents/Xien Thomas_Software Engineer  - Capital One.pdf";
-// send a axios request to download a pdf file
-// const downloadPDF = () => {};
+import resumePDF from "../documents/Xien Thomas_Software Engineer  - Capital One.pdf";
+
 function Home() {
   return (
     <>
@@ -19,7 +16,7 @@ function Home() {
        />
       </div>
 
-      {/* <div className="home-container">
+      <div className="home-container">
         <div className="description-container">
           <p className="quote">
             "Life itself is your teacher, and you are in a state of constant
@@ -34,7 +31,7 @@ function Home() {
             <button className="resume">RESUME</button>
           </Link>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

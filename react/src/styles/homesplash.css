@@ -1,19 +1,18 @@
 .splash-video {
     object-fit: cover;
-    width: 100%;
-    height: 200%;
-    position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed ;
     filter: brightness(50%);
-    /* z-index: -1; */
+    z-index: -1;
 }
 .home-container {
-    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     
-    /* object-fit: contain; */
+    object-fit: contain;
 }
 
 .description-container{
