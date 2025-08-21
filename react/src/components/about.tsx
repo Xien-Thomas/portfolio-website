@@ -13,39 +13,49 @@ function About() {
           <div className="about-description">
             <h3>Howdy!</h3>
             <p>
-              My name is Xien Thomas and most of my life I loved art and
-              computers. When I was younger, I was curious and try to replicate
-              art and computers the best I could. I would trace an artist work
-              and I work dismantle an electronic to understand them more. I took
-              a computer science course in high school and I noticed how
-              creative you can be when writing in code.
+              My name is Xien Thomas, and for as long as I can remember, I’ve
+              been fascinated by both art and technology. As a kid, my curiosity
+              pushed me to experiment—I would trace artwork to understand style
+              and form, and I would take apart electronics just to see how they
+              worked. That curiosity grew into something more when I took my
+              first computer science course in high school, where I discovered
+              just how creative programming could be. Writing code felt like
+              creating art, but with logic and problem-solving at its core.
             </p>
             <p>
-              Which leads me into today! I am first an avid learner then a
-              computer scientist. Throughout my career, most of my expereince
-              was in academic research under{" "}
+              Today, I consider myself a lifelong learner first, and a computer
+              scientist second. My journey has taken me through academic
+              research with
               <Link className="link-color" to="https://www.tamu.edu/">
-                Texas A&M
+                Texas A&M University
               </Link>{" "}
               and
               <Link className="link-color" to="https://www.tsu.edu/">
                 {" "}
                 Texas Southern University
               </Link>
-              . Currently, I am a Software Engineer and have the privilage to
-              work with
+              , and now into the professional world. I currently work as a
+              Software Engineer at
               <Link className="link-color" to="https://alphaomega.com/">
                 {" "}
                 Alpha Omega Intergration
               </Link>{" "}
-              to modernize application under the US Government.
+              , where I have the privilege of helping modernize applications for
+              the U.S. Government.
             </p>
-            <p>Recent technologies I've been working with:</p>
+            <p>
+              For me, technology isn’t just about building software—it’s about
+              learning, creating, and solving problems in ways that make a real
+              impact.
+            </p>
+            <p>Recent technologies I'm learning:</p>
             <ul className="tech-list">
               <li>Ruby on Rails</li>
               <li>React</li>
-              <li>typescript/javascript</li>
+              <li>Typescript/Javascript</li>
+              <li>Kubernetes</li>
               <li>Python</li>
+              <li>SQL</li>
             </ul>
           </div>
         </div>
