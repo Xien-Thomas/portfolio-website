@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --primary-color: #FFD700 ;
+  --autumn-color: #f09251;
+  --gray-color: #fef7e8;
+  --teal-color: #00D4FF;
+  --dark-gray-color: #171710;
+  --font-sans: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+  --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  --font-size: 18px;
+  --nav-size: 15px;
+}
+body{
+  background-color: var(--gray-color);
+  font-family:var(--font-sans);
+  font-size: var(--font-size);
+}
