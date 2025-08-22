@@ -1,13 +1,14 @@
 import { useContext } from "react";
-import dataContext from "../../../portfolio-web/src/appContext";
+import dataContext from "../../../react/src/appContext";
 import "../styles/card.css";
 
 type Company = {
-  id: number;
+  id: string;
   title: string;
   company: string;
-  description: string;
-  image: File;
+  category: string;
+  desc: string;
+  img: string;
 };
 
 function ProjectCard() {
@@ -22,10 +23,10 @@ function ProjectCard() {
                 <div className="card-desc">
                   <p className="title">{item.title}</p>
                   <p className="company-name">{item.company}</p>
-                  <p className="desc">{item.description}</p>
+                  <p className="desc">{item.desc}</p>
                 </div>
                 <div
-                  style={{ backgroundImage: `URL(${item.image})` }}
+                  style={{ backgroundImage: `URL(${item.img})` }}
                   className="card-image"
                 ></div>
               </div>

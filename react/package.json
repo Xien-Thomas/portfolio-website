@@ -2,8 +2,11 @@
   "name": "react",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://xien-thomas.github.io/portfolio-website/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
